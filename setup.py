@@ -20,16 +20,16 @@ with open("requirements.txt", "r") as f:
     reqs = [line.strip() for line in f if not any(pkg in line for pkg in exclude_packages)]
 
 setup(
-    name="gpt-researcher",
+    name="conting-researcher",
     version=LATEST_VERSION,
-    description="GPT Researcher is an autonomous agent designed for comprehensive web research on any task",
+    description="Conting Researcher - A fork of GPT-Researcher with enhanced features for comprehensive web research",
     package_dir={'gpt_researcher': 'gpt_researcher'},
     packages=find_packages(exclude=exclude_packages),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/assafelovic/gpt-researcher",
-    author="Assaf Elovic",
-    author_email="assaf.elovic@gmail.com",
+    url="https://github.com/JYT-AI/conting-researcher",
+    author="hurxxxx",
+    author_email="hurxxxx@gmail.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",

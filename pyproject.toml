@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "gpt-researcher"
+name = "conting-researcher"
 version = "0.13.3"
-description = "GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks."
-authors = ["Assaf Elovic <assaf.elovic@gmail.com>"]
+description = "Conting Researcher - A fork of GPT-Researcher with enhanced features for comprehensive online research."
+authors = ["hurxxxx <hurxxxx@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
@@ -56,13 +56,13 @@ python_files = "test_*.py"
 asyncio_fixture_loop_scope = "function"
 
 [tool.uv.sources]
-gpt-researcher = { workspace = true }
+conting-researcher = { workspace = true }
 
 [project]
-name = "gpt-researcher"
+name = "conting-researcher"
 version = "0.14.0"
-description = "GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks."
-authors = [{ name = "Assaf Elovic", email = "assaf.elovic@gmail.com" }]
+description = "Conting Researcher - A fork of GPT-Researcher with enhanced features for comprehensive online research on a variety of tasks."
+authors = [{ name = "hurxxxx", email = "hurxxxx@gmail.com" }]
 license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.11, <4"
