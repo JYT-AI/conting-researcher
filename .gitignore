@@ -18,6 +18,8 @@ outputs/
 *.lock
 dist/
 gpt_researcher.egg-info/
+conting_researcher.egg-info/
+*.egg-info/
 
 #Ignore my local docs
 my-docs/
