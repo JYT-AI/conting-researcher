@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "conting-researcher"
-version = "0.13.3"
+version = "0.15.0"
 description = "Conting Researcher - A fork of GPT-Researcher with enhanced features for comprehensive online research."
 authors = ["hurxxxx <hurxxxx@gmail.com>"]
 license = "MIT"
@@ -60,7 +60,7 @@ conting-researcher = { workspace = true }
 
 [project]
 name = "conting-researcher"
-version = "0.14.0"
+version = "0.15.0"
 description = "Conting Researcher - A fork of GPT-Researcher with enhanced features for comprehensive online research on a variety of tasks."
 authors = [{ name = "hurxxxx", email = "hurxxxx@gmail.com" }]
 license = { text = "MIT" }
